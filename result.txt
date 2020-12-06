@@ -1,0 +1,69 @@
+Ino@1 @0 program children: [@2 @7 @12 @17 @30 @36 @47 @65 ] 
+Ino@2 @3 statement stmt: decl children: [@3 @4 @5 @6 ] 
+Ino@3 @3 tpye: int 
+Ino@4 @3 variable varname: a 
+Ino@5 @3 operation op: ASSIGN 
+Ino@6 @3 const 
+Ino@7 @4 statement stmt: decl children: [@8 @9 @10 @11 ] 
+Ino@8 @4 tpye: int 
+Ino@9 @4 variable varname: b 
+Ino@10 @4 operation op: ASSIGN 
+Ino@11 @4 const 
+Ino@12 @5 statement stmt: decl children: [@13 @14 @15 @16 ] 
+Ino@13 @5 tpye: int 
+Ino@14 @5 variable varname: c 
+Ino@15 @5 operation op: ASSIGN 
+Ino@16 @5 const 
+Ino@17 @5 statement stmt: IF children: [@18 @22 @27 ] 
+Ino@18 @6 statement stmt: BOOL children: [@19 @20 @21 ] 
+Ino@19 @6 variable varname: a 
+Ino@20 @6 operation op: less 
+Ino@21 @6 variable varname: b 
+Ino@22 @8 statement stmt: decl children: [@23 @26 ] 
+Ino@23 @8 statement stmt: decl children: [@24 @25 ] 
+Ino@24 @8 tpye: char 
+Ino@25 @8 variable varname: ch 
+Ino@26 @8 variable varname: ch2 
+Ino@27 @9 statement stmt: printf children: [@28 @29 ] 
+Ino@28 @9 STRING 
+Ino@29 @9 variable varname: b 
+Ino@30 @11 statement stmt: assign children: [@31 @32 @33 ] 
+Ino@31 @11 variable varname: a 
+Ino@32 @11 operation op: ASSIGN 
+Ino@33 @11 operation op: add children: [@34 @35 ] 
+Ino@34 @11 variable varname: a 
+Ino@35 @11 const 
+Ino@36 @11 statement stmt: while children: [@37 @38 @43 ] 
+Ino@37 @12 bool 
+Ino@38 @14 statement stmt: decl children: [@39 @40 @41 @42 ] 
+Ino@39 @14 tpye: char 
+Ino@40 @14 variable varname: ch3 
+Ino@41 @14 operation op: ASSIGN 
+Ino@42 @14 char 
+Ino@43 @15 statement stmt: assign children: [@44 @45 @46 ] 
+Ino@44 @15 variable varname: ch2 
+Ino@45 @15 operation op: ASSIGN 
+Ino@46 @15 char 
+Ino@47 @15 statement stmt: for children: [@48 @53 @57 @63 ] 
+Ino@48 @17 statement stmt: decl children: [@49 @50 @51 @52 ] 
+Ino@49 @17 tpye: int 
+Ino@50 @17 variable varname: i 
+Ino@51 @17 operation op: ASSIGN 
+Ino@52 @17 const 
+Ino@53 @17 statement stmt: BOOL children: [@54 @55 @56 ] 
+Ino@54 @17 variable varname: i 
+Ino@55 @17 operation op: less 
+Ino@56 @17 const 
+Ino@57 @17 statement stmt: assign children: [@58 @59 @60 ] 
+Ino@58 @17 variable varname: i 
+Ino@59 @17 operation op: ASSIGN 
+Ino@60 @17 operation op: add children: [@61 @62 ] 
+Ino@61 @17 variable varname: i 
+Ino@62 @17 const 
+Ino@63 @18 statement stmt: printf children: [@64 ] 
+Ino@64 @18 variable varname: i 
+Ino@65 @19 statement stmt: decl children: [@66 @67 @68 @69 ] 
+Ino@66 @19 tpye: string 
+Ino@67 @19 variable varname: s 
+Ino@68 @19 operation op: ASSIGN 
+Ino@69 @19 STRING 
